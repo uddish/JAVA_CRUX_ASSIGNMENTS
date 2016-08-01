@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;queue_LinkList.java&apos; to &apos;java_assignment12/src/java_assignment12&apos;&#x0A;- Original project: &apos;java_assignment11&apos;&#x0A;- Destination element: &apos;java_assignment12/src/java_assignment12&apos;&#x0A;- Original element: &apos;java_assignment11.queue_LinkList.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=java_assignment12/src&lt;java_assignment12" element1="/src&lt;java_assignment11{queue_LinkList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1459774990354" units="1" version="1.0"/>
+</session>

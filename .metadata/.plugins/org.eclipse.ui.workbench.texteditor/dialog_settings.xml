@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="isRegEx"/>
+		<item value="package java_assignment3;&#x0A;&#x0A;import java.util.Scanner;&#x0A;&#x0A;public class intersection_4 {&#x0A;&#x0A;&#x09;public static void takeInput()&#x09;{&#x0A;&#x09;&#x09;Scanner s = new Scanner(System.in);&#x0A;&#x09;&#x09;System.out.println(&quot;Enter the size of array 1&quot;);&#x0A;&#x09;&#x09;int size1 = s.nextInt();&#x0A;&#x09;&#x09;int array1[] = new int[size1];&#x0A;&#x0A;&#x09;&#x09;System.out.println(&quot;Enter the elements&quot;);&#x0A;&#x09;&#x09;for(int i = 0;i &lt; size1;i++)&#x09;{&#x0A;&#x09;&#x09;&#x09;array1[i] = s.nextInt();&#x0A;&#x09;&#x09;}&#x0A;&#x09;&#x09;System.out.println(&quot;Enter the size of array 2&quot;);&#x0A;&#x09;&#x09;int size2 = s.nextInt();&#x0A;&#x09;&#x09;int array2[] = new int[size2];&#x0A;&#x09;&#x09;System.out.println(&quot;Enter the elements&quot;);&#x0A;&#x09;&#x09;for(int j = 0;j &lt; size2;j++)&#x09;{&#x0A;&#x09;&#x09;&#x09;array2[j] = s.nextInt();&#x0A;&#x09;&#x09;}&#x0A;&#x09;&#x09;intersection(array1,array2);&#x0A;&#x09;&#x09;//&#x09;&#x09;System.out.println(array[index]);&#x0A;&#x0A;&#x09;}&#x0A;&#x0A;&#x09;public static void intersection(int a[],int b[])&#x09;{&#x0A;&#x09;&#x09;int array[] = new int[10];&#x0A;&#x09;&#x09;int index = 0;&#x0A;&#x09;&#x09;for(int i = 0;i &lt; a.length;i++)&#x09;{&#x0A;&#x09;&#x09;&#x09;for(int j = 0;j &lt; b.length;j++)&#x09;{&#x0A;&#x09;&#x09;&#x09;&#x09;if(a[i] == b[j])&#x09;{&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;array[index] = b[j];&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;index++;&#x0A;&#x09;&#x09;&#x09;&#x09;}&#x0A;&#x09;&#x09;&#x09;&#x09;else&#x09;{&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;return;&#x0A;&#x09;&#x09;&#x09;&#x09;}&#x0A;&#x09;&#x09;&#x09;}&#x0A;&#x09;&#x09;&#x09;//&#x09;&#x09;&#x09;System.out.println(&quot;no. are: &quot; + array[index]);&#x0A;&#x09;&#x09;}&#x0A;&#x09;&#x09;//&#x09;&#x09;return array;&#x0A;&#x09;}&#x0A;&#x09;public static void main(String[] args) {&#x0A;&#x09;&#x09;takeInput();&#x0A;&#x09;&#x09;//&#x09;&#x09;&#x09;&#x09;System.out.println(array[index]);&#x0A;&#x09;}&#x0A;&#x0A;}&#x0A;" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="package java_assignment3;\R\Rimport java\.util\.Scanner;\R\Rpublic class intersection_4 \{\R\R\tpublic static void takeInput\(\)\t\{\R\t\tScanner s = new Scanner\(System\.in\);\R\t\tSystem\.out\.println\(&quot;Enter the size of array 1&quot;\);\R\t\tint size1 = s\.nextInt\(\);\R\t\tint array1\[\] = new int\[size1\];\R\R\t\tSystem\.out\.println\(&quot;Enter the elements&quot;\);\R\t\tfor\(int i = 0;i &lt; size1;i\+\+\)\t\{\R\t\t\tarray1\[i\] = s\.nextInt\(\);\R\t\t\}\R\t\tSystem\.out\.println\(&quot;Enter the size of array 2&quot;\);\R\t\tint size2 = s\.nextInt\(\);\R\t\tint array2\[\] = new int\[size2\];\R\t\tSystem\.out\.println\(&quot;Enter the elements&quot;\);\R\t\tfor\(int j = 0;j &lt; size2;j\+\+\)\t\{\R\t\t\tarray2\[j\] = s\.nextInt\(\);\R\t\t\}\R\t\tintersection\(array1,array2\);\R\t\t//\t\tSystem\.out\.println\(array\[index\]\);\R\R\t\}\R\R\tpublic static void intersection\(int a\[\],int b\[\]\)\t\{\R\t\tint array\[\] = new int\[10\];\R\t\tint index = 0;\R\t\tfor\(int i = 0;i &lt; a\.length;i\+\+\)\t\{\R\t\t\tfor\(int j = 0;j &lt; b\.length;j\+\+\)\t\{\R\t\t\t\tif\(a\[i\] == b\[j\]\)\t\{\R\t\t\t\t\tarray\[index\] = b\[j\];\R\t\t\t\t\tindex\+\+;\R\t\t\t\t\}\R\t\t\t\telse\t\{\R\t\t\t\t\treturn;\R\t\t\t\t\}\R\t\t\t\}\R\t\t\t//\t\t\tSystem\.out\.println\(&quot;no\. are: &quot; \+ array\[index\]\);\R\t\t\}\R\t\t//\t\treturn array;\R\t\}\R\tpublic static void main\(String\[\] args\) \{\R\t\ttakeInput\(\);\R\t\t//\t\t\t\tSystem\.out\.println\(array\[index\]\);\R\t\}\R\R\}\R"/>
+			<item value="spaces"/>
+		</list>
+		<list key="replacehistory">
+			<item value="value"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="265" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="399" key="DIALOG_HEIGHT"/>
+		<item value="669" key="DIALOG_X_ORIGIN"/>
+		<item value="161" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

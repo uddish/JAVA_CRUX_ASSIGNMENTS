@@ -1,0 +1,30 @@
+package lecture19;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class Hash_Map<K, V> {
+
+	ArrayList<Node> buckets;
+	
+	
+	
+	public int size()	{
+		return buckets.size();
+	}
+	
+	public Boolean isEmpty()	{
+		return (buckets.size() == 0);
+	}
+	
+	public int getIndex(K key)	{
+		int bucketIndex = key.hashCode();
+		return (bucketIndex % buckets.size());
+	}
+	
+	public void put(K key)	{
+		
+		
+	}
+	
+}

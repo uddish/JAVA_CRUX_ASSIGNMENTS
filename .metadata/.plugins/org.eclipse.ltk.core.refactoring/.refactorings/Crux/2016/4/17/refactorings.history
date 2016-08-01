@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;lecture25.EditDistance_Recursion.java&apos; to &apos;EditDistance.java&apos;&#x0A;- Original project: &apos;Crux&apos;&#x0A;- Original element: &apos;lecture25.EditDistance_Recursion.java&apos;&#x0A;- Renamed element: &apos;lecture25.EditDistance.java&apos;" description="Rename compilation unit &apos;EditDistance_Recursion.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;lecture25{EditDistance_Recursion.java" name="EditDistance.java" references="false" stamp="1460877323738" version="1.0"/>
+</session>

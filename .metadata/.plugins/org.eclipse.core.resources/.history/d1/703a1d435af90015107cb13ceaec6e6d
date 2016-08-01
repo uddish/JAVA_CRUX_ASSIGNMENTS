@@ -1,0 +1,50 @@
+package lecture19;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class Hash_Map<K, V> {
+
+	ArrayList<Node> buckets;
+
+	public Hash_Map()	{
+
+		buckets = new ArrayList<>();
+		for(int i = 0; i < 5; i++)	{
+			buckets.add(null);
+		}
+	}
+
+	public int size()	{
+		return buckets.size();
+	}
+
+	public Boolean isEmpty()	{
+		return (buckets.size() == 0);
+	}
+
+	public int getIndex(K key)	{
+		int bucketIndex = key.hashCode();
+		return (bucketIndex % buckets.size());
+	}
+
+	public void put(K key, V value)	{
+		int bucketIndex = getIndex(key);
+		Node<K, V> temp = buckets.get(bucketIndex);
+		
+		if(temp == null)	{
+			Node<K, V> newNode = new Node<K, V>(key, value);
+					}
+		
+		while(temp != null)	{
+			if(key == temp.key)	{
+				temp.key = key;
+			}
+			else
+				temp = temp.next;
+			
+		}
+
+	}
+
+}
